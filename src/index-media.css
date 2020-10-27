@@ -156,11 +156,7 @@
   
     /************ Footer ************/
   
-    footer {
-      padding-top: 240px;
-      flex-direction: column-reverse;
-      align-items: center;
-    }
+   
   
     .footer-links {
       margin-bottom: 50px;
@@ -218,7 +214,7 @@
   
   @media (max-width: 600px) {
     /************ Global Styles ************/
-  
+    
     .section-text {
       max-width: 100%;
       padding: 0 30px;
@@ -293,7 +289,9 @@
       min-width: 0;
       width: 85%;
     }
-  
+    .features-img-ctr{
+      display: none;
+    }
     /************ Locations ************/
   
     .locations {
@@ -363,16 +361,9 @@
   
     /************ Footer ************/
   
-    footer {
-      padding-top: 280px;
-    }
   
-    .footer-links {
-      width: auto;
-      flex-wrap: wrap;
-      justify-content: space-between;
-      padding: 0 30px;
-    }
+  
+    
   
     .link-col {
       margin: 0 15px;
@@ -384,9 +375,7 @@
       text-align: center;
     }
   
-    .footer-logo-ctr {
-      margin: 0 auto 20px;
-    }
+    
   
     .social-media-links {
       justify-self: center;
@@ -443,11 +432,7 @@
   
     /************ Footer ************/
   
-    .footer-links {
-      flex-wrap: nowrap;
-      flex-direction: column;
-      text-align: center;
-    }
+    
   
     .link-col {
       margin-bottom: 20px;

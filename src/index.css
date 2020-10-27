@@ -54,6 +54,7 @@ html {
   .body-overlay.show {
     display: block;
   } 
+  
 
   /************ Call-to-Action ************/
 
@@ -64,7 +65,7 @@ html {
   }
   
   .cta-info {
-    margin-right: 10px;
+    margin-right: 0px;
   }
   
   .cta-text-header {
@@ -85,7 +86,7 @@ html {
   }
   
   .cta-img-ctr {
-    min-width: 550px;
+    min-width: 450px;
   }
   
   .cta-btn {

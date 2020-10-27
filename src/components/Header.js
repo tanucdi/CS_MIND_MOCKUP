@@ -4,10 +4,10 @@ import { Nav, Navbar, NavDropdown, Container } from "react-bootstrap";
 import { Spin as Hamburger } from "hamburger-react";
 const Header = () => {
   return (
-    <header>  
-    <Navbar collapseOnSelect expand="lg" bg="white" variant="light" fixed="top" >
+    <header >  
+    <Navbar collapseOnSelect expand="lg" bg="white" variant="light" fixed="top" style={{paddingTop:"20px"}} >
       <Container>
-        <Navbar.Brand href="#home">CS<strong> MIND</strong></Navbar.Brand>
+        <Navbar.Brand href="#home">CS<strong>MIND</strong></Navbar.Brand >
 
         <span
           aria-controls="responsive-navbar-nav"

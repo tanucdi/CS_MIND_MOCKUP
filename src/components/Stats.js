@@ -7,7 +7,7 @@ const Stats = () => {
         <section class="stats">
             <div class="stats-item">
               <div class="stats-img-ctr">
-                <img src="media/stats-user-icon.svg" />
+                <img src="media/stats-user-icon.svg" alt='stats-img'/>
               </div>
               <div class="stats-text">
                 <p class="text-num">
@@ -24,7 +24,7 @@ const Stats = () => {
             </div>
             <div class="stats-item">
               <div class="stats-img-ctr">
-                <img src="media/stats-location-icon.svg" />
+                <img src="media/stats-location-icon.svg" alt="localv" />
               </div>
               <div class="stats-text">
                 <p class="text-num"><CountUp end={35}>
@@ -39,7 +39,7 @@ const Stats = () => {
             </div>
             <div class="stats-item">
               <div class="stats-img-ctr">
-                <img src="media/stats-server-icon.svg" />
+                <img src="media/stats-server-icon.svg" alt="srddf"/>
               </div>
               <div class="stats-text">
                 <p class="text-num"><CountUp end={15}>

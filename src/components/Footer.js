@@ -22,10 +22,10 @@ const Footer = () => {
                 <h4>USEFUL LINKS</h4>
                 <ul>
                   <li>
-                    <i class="bx bx-chevron-right"></i> <a href="#">Home</a>
+                    <i class="bx bx-chevron-right"></i> <a href="/">Home</a>
                   </li>
                   <li>
-                    <i class="bx bx-chevron-right"></i> <a href="#">About us</a>
+                    <i class="bx bx-chevron-right"></i> <a href="/about">About us</a>
                   </li>
                   <li>
                     <i class="bx bx-chevron-right"></i> <a href="#">Services</a>
